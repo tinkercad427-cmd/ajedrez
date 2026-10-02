@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ajedrez</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>♞ Ajedrez</h1>
+<div id="wrap"><div id="board"></div></div>
+<aside>
+<div id="status"></div>
+<label>Modo
+<select id="mode"><option value="2">2 jugadores</option><option value="1">Contra el ordenador (negras)</option></select>
+</label>
+<div class="row">
+<button id="undo">↶ Deshacer</button>
+<button id="flip">⇅ Girar</button>
+<button id="new">Nueva partida</button>
+</div>
+<div id="moves"></div>
+</aside>
+</main>
+<div id="promo"><div><p>Coronar peón a:</p><span id="pb"></span></div></div>
+<script src="script.js"></script>
+</body>
+</html>
